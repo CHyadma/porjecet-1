@@ -1,47 +1,84 @@
-body{
-    margin-left:300px ;
-    margin-right: 300px;
-}
+
 .header{
     width: 100vw;
-    background-color: white;
+    background-color: rgb(248, 241, 241);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 
 }
+.hamburger-text{
+    color: grey ;
+}
 .hamburger{
     display: flex;
+    flex-direction: column;
     gap: 3px;
 }
 .hamburger-top{
-    width: 15x;
+    width: 15px;
     height: 3px;
     background-color: black;
     border-radius: 3px;
 }
 .hamburger-mid{
-    width: 15x;
+    width: 15px;
     height: 3px;
     background-color: black;
     border-radius: 3px;
 }
 .hamburger-bottom{
-    width: 15x;
+    width: 15px;
     height: 3px;
     background-color: black;
     border-radius: 3px;
 }
 .icon{
-    width:50px;
+    width:30px;
+    height: 30px;
 }
 .header-right{
     display: flex;
-    gap: 30px;
-    justify-content: baseline;
+    gap: 10px;
+   align-items: center;
 }
-.rigt{
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.header-left{
     display: flex;
-    flex-direction:row ;
+    flex-direction:row;
+    gap: 50px;
+    align-items: center;
+}
+.place{
+    width: 20px;
+    height: 20px;   
+}
+.place-text{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    background-color: rgb(164, 150, 150);
+    height: 50px;
+    align-items: center;
+    border-radius: 7px;
+}
+.place-text:hover{
+    background-color: red;
+}
+.right-text{
+    color: grey;
+}
+.right-text:hover{
+    color: black;
+}
+.english{
+    color:grey;
+}
+.english:hover{
+    color:black;
 }

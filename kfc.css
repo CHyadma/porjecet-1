@@ -1,0 +1,43 @@
+body{
+    margin-left:300px ;
+    margin-right: 300px;
+}
+.header{
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.hamburger{
+    display: flex;
+    gap: 3px;
+}
+.hamburger-top{
+    width: 15x;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+}
+.hamburger-mid{
+    width: 15x;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+}
+.hamburger-bottom{
+    width: 15x;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+}
+.icon{
+    width:50px;
+}
+.header-right{
+    display: flex;
+    gap: 30px;
+    justify-content: baseline;
+}

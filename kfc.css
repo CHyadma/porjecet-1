@@ -41,3 +41,7 @@ body{
     gap: 30px;
     justify-content: baseline;
 }
+.rigt{
+    display: flex;
+    flex-direction:row ;
+}
